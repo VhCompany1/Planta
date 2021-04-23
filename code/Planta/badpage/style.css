@@ -1,0 +1,20 @@
+body{
+    font: 20pt;
+    font-family: Arial;
+    background-color: rgb(56, 78, 177);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 10pt;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
