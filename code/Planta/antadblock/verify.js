@@ -1,3 +1,3 @@
 if(window.verifyadblock == undefined){
-    console.log('teste')
+    console.log('erro')
 }
