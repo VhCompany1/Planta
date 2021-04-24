@@ -1,5 +1,0 @@
-1 - a cada condição de credito valida adicionar +1 para uma variavel especificada e logo apos ver se a variavel tem o valor correto 
-
-2 - list vai ser onde fica as possibilidades de erros da badpage
-
-
