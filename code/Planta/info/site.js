@@ -1,4 +1,7 @@
 window.site = {
-    'name': 'Youtube Copia',
-    'motivo': 'Estudos',
+    'name': 'Tester',
+    'motivo': '...',
+    'antadblock': 'true',
 }
+
+window.msg = 'planta trabalhando:'

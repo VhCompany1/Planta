@@ -25,10 +25,10 @@ for(let c = 0;c <= 10;c++){
 setTimeout(function listverify(){
     if(account == 10){
     badPage(1)
-    console.log('planta em ação')
+    console.log(window.msg)
     console.log(`${window.dev.name} não esta na whitelist de devs`)
 }else{
-    console.log('planta em ação')
+    console.log(window.msg)
     console.log(`${window.dev.name} esta na whitelist de devs`)
     window.account++
 }
