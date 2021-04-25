@@ -18,6 +18,18 @@ function verifyadblock(){
         console.log('procurando adblock')
     }
     }, 4000)
+
+    setTimeout(function(){
+        const anuncio = window.document.getElementById('hpSponsor')
+        anuncio.click()
+
+        if(window.verifyadblock2 == undefined){
+            console.log('erro')
+        }else{
+        console.log(window.msg)
+        console.log('procurando adblock')
+        }
+    }, 5000)
 }
 
 
