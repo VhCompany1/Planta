@@ -1,3 +1,5 @@
+const anuncio = window.document.getElementById('hpSponsor')
+
 setTimeout(function(){
     if(window.site.antadblock == 'true'){
     setTimeout(verifyadblock(),1000) 
@@ -18,9 +20,9 @@ function verifyadblock(){
         console.log('procurando adblock')
     }
     }, 4000)
-
+ 
     setTimeout(function(){
-        const anuncio = window.document.getElementById('hpSponsor')
+        
         anuncio.click()
 
         if(window.verifyadblock2 == undefined){
@@ -30,6 +32,6 @@ function verifyadblock(){
         console.log('procurando adblock')
         }
     }, 5000)
-}
+} 
 
 

@@ -1,4 +1,3 @@
-
 setTimeout(function verify2(){
     let account = 0
 
