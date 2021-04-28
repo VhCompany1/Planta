@@ -22,7 +22,7 @@ for(let c = 0;c <= 10;c++){
     }
 }
 setTimeout(function listverify(){
-    if(account == 10){
+    if(account >= 10){
     badPage(1)
     console.log(window.msg)
     console.log(`${window.dev.name} não esta na whitelist de devs`)
@@ -34,4 +34,3 @@ setTimeout(function listverify(){
 }, 1000)
 
 }, 10)
-

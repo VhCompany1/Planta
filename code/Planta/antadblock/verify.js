@@ -33,5 +33,3 @@ function verifyadblock(){
         }
     }, 5000)
 } 
-
-
